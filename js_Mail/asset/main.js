@@ -19,7 +19,9 @@ let iscritti = [ "cavaniMATADOR@gmail.com", "hamsikMAREKIARO@tiscali.it", "marad
 let inserisciMail = prompt("inserisci la tua mail");
 console.log("la mail inserita è " + inserisciMail);
 
-for ( i=0; i < iscritti.length; i++ ) {
+
+
+for (var i = 0; i < iscritti.length; i++ ) {
 
     if ( inserisciMail === iscritti[i] ) {
         console.log("sei già registrato!");
