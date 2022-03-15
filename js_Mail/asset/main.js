@@ -28,6 +28,6 @@ for (var i = 0; i < iscritti.length; i++ ) {
         document.getElementById("risposta_in_uscita").innerHTML = `sei già registrato!`;
     } else {
         console.log("effettua la registrazione");
-        document.getElementById("risposta_in_uscita").innerHTML = `NON SEI REGISTRATO!!! effettua la registrazione!`;
+        document.getElementById("risposta_in_uscita").innerHTML = `NON SEI REGISTRATO!!!!`;
     }
 }

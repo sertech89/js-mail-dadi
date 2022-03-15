@@ -6,7 +6,7 @@
 }
 
 .container_grande {
-    background-color: green;
+    background-color: lightgrey;
     text-align: center;
     height: 100vh;
     color: red;
@@ -15,7 +15,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    border: 200px solid greenyellow;
+    border: 200px solid grey;
 }
 
 h1 {
@@ -23,7 +23,7 @@ h1 {
 }
 
 .box {
-    background-color: white;
+    background-color: goldenrod;
     color: black;
     width: 300px;
     text-align: center;
